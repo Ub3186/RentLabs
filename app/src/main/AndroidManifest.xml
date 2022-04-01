@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rentlab">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Rentlab">
+        <activity
+            android:name=".userRegistration"
+            android:exported="false" />
+        <activity
+            android:name=".userOrderedProducts"
+            android:exported="false" />
+        <activity
+            android:name=".userHomepage"
+            android:exported="false" />
+        <activity
+            android:name=".termsandcnd"
+            android:exported="false" />
+        <activity
+            android:name=".providerRegistration"
+            android:exported="false" />
+        <activity
+            android:name=".providerHome"
+            android:exported="false" />
+        <activity
+            android:name=".provider_trmscnd"
+            android:exported="false" />
+        <activity
+            android:name=".providerProducts"
+            android:exported="false"/>
+        <activity
+            android:name=".provider_privacypolicy"
+            android:exported="false" />
+        <activity
+            android:name=".privacyPolicy"
+            android:exported="false" />
+        <activity
+            android:name=".placeOrder"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".invoice"
+            android:exported="false" />
+        <activity
+            android:name=".forgotPassword"
+            android:exported="false" />
+        <activity
+            android:name=".Admin"
+            android:exported="false" />
+        <activity
+            android:name=".Welcome"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

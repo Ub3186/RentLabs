@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/login_bg1"
+    tools:context=".termsandcnd">
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="Terms and conditions"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.072" />
+
+    <ScrollView
+        android:layout_width="380dp"
+        android:layout_height="552dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView19">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gradient"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:fontFamily="sans-serif-light"
+                android:letterSpacing="0.1"
+                android:text="1. If the user is connecting any External device like USB, external HDD ,SD card reader,etc. Extra charges will be applied and ports will be open for user, Otherwise locked ports."
+                android:textAlignment="textStart"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="109dp"
+                android:layout_margin="5sp"
+                android:fontFamily="sans-serif-light"
+                android:letterSpacing="0.1"
+                android:text="2. Deposit amount is refundable if the laptop is returned in same condition as it was delivered in the stipulated time."
+                android:textAlignment="textStart"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="87dp"
+                android:layout_margin="5sp"
+                android:fontFamily="sans-serif-light"
+                android:letterSpacing="0.1"
+                android:text="3. In case of any damages to the product amount from deposit will be deducted*."
+                android:textAlignment="textStart"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="95dp"
+                android:layout_margin="5sp"
+                android:fontFamily="sans-serif-light"
+                android:letterSpacing="0.1"
+                android:text="4. The return time of the product if extended beyond 24hrs* charges for the extra day will be applied."
+                android:textAlignment="textStart"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="93dp"
+                android:layout_margin="5sp"
+                android:fontFamily="sans-serif-light"
+                android:letterSpacing="0.1"
+                android:text=" 5. The user can give back the product if any damage or wrong order is reached to the user's end."
+                android:textAlignment="textStart"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:layout_margin="5sp"
+                android:fontFamily="sans-serif-light"
+                android:letterSpacing="0.1"
+                android:text="6. Refund Amount and bill will be given to user during product return."
+                android:textAlignment="textStart"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:layout_margin="5sp"
+                android:fontFamily="sans-serif-light"
+                android:letterSpacing="0.1"
+                android:text="7. One user cannot rent more than one product irrespective of the date issued."
+                android:textAlignment="textStart"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

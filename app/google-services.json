@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "185148965364",
+    "firebase_url": "https://rentlabs-3sem-default-rtdb.firebaseio.com",
+    "project_id": "rentlabs-3sem",
+    "storage_bucket": "rentlabs-3sem.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:185148965364:android:dd8721c150425bfe08b9a1",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "185148965364-njeqmucim5hcruupeh4fju6vlusuas71.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1fSg6QqTvu9271_eSTCllH770CugQSjw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "185148965364-njeqmucim5hcruupeh4fju6vlusuas71.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:185148965364:android:fa5f37c68c16733308b9a1",
+        "android_client_info": {
+          "package_name": "com.example.rentlab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "185148965364-njeqmucim5hcruupeh4fju6vlusuas71.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1fSg6QqTvu9271_eSTCllH770CugQSjw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "185148965364-njeqmucim5hcruupeh4fju6vlusuas71.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
